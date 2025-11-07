@@ -4,17 +4,16 @@
   "description": "WebSocket server with Express",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js"
+    "start": "node server.js"
   },
   "keywords": ["websocket", "express", "server"],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2",
-    "ws": "^8.14.2"
+    "express": "4.18.2",
+    "ws": "8.14.2"
   },
   "engines": {
-    "node": ">=16.0.0"
+    "node": "18.x"
   }
 }
